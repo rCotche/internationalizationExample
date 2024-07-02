@@ -14,16 +14,17 @@ mixin LocaleData {
 
   static const Map<String, dynamic> EN = {
     title: 'Localization',
-    body: 'Welcome to this localized flutter application',
+    //%a to add some dynamic values into the string
+    body: 'Welcome to this localized flutter application %a',
   };
 
   static const Map<String, dynamic> DE = {
     title: 'Lokalisierung',
-    body: 'Willkommen bei dieser lokalisierten Flatteranwendung',
+    body: 'Willkommen bei dieser lokalisierten Flatteranwendung %a',
   };
 
   static const Map<String, dynamic> ZH = {
     title: '本土化',
-    body: '欢迎使用这个本地化的 flutter 应用程序',
+    body: '欢迎使用这个本地化的 flutter 应用程序 %a',
   };
 }

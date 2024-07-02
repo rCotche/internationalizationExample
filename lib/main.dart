@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
 
   void configureLocaliztion() {
     //mapLocales: all the data dont on a besoin de translate un language to anothre
-    localization.init(mapLocales: LOCALES, initLanguageCode: "en");
+    localization.init(mapLocales: LOCALES, initLanguageCode: "zh");
     localization.onTranslatedLanguage = onTranslatedLanguage;
   }
 
